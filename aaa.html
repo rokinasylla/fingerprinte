@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil utilisateur</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .personal-info {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .schedule {
+            flex: 2;
+            overflow: auto; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profil utilisateur</h1>
+    <div class="container">
+        <div class="personal-info">
+            <h2>Informations personnelles</h2>
+            <table>
+                <tr>
+                    <th>Nom</th>
+                    <td>John</td>
+                </tr>
+                <tr>
+                    <th>Prénom</th>
+                    <td>Doe</td>
+                </tr>
+                <tr>
+                    <th>Adresse</th>
+                    <td>123 Rue Principale</td>
+                </tr>
+                <!-- Ajoutez plus d'informations personnelles au besoin -->
+            </table>
+        </div>
+        <div class="schedule">
+            <h2>Emploi du temps</h2>
+            <table>
+                <tr>
+                    <th>Jour</th>
+                    <th>Heure</th>
+                    <th>Matière</th>
+                </tr>
+                <tr>
+                    <td>Lundi</td>
+                    <td>8h-10h</td>
+                    <td>Mathématiques</td>
+                </tr>
+                <tr>
+                    <td>Mardi</td>
+                    <td>10h-12h</td>
+                    <td>Histoire</td>
+                </tr>
+                <!-- Ajoutez plus de lignes pour l'emploi du temps au besoin -->
+            </table>
+        </div>
+    </div>
+</body>
+</html>

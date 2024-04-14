@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription Étudiant</title>  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <section>
+        
+        <div class="form-box">
+            <div class="form-value">
+                <form action="traitement_inscription.php" method="POST">
+                    <h2>Inscription Étudiant</h2>
+                    <table><tr>
+                       <td>Nom :</td>
+                      <td> <input type="text" id="nom" name="nom"  required><br><br></td>
+                    </tr>
+                    <tr>
+        <td>Prénom :</td>
+        <td><input type="text" id="prenom" name="prenom" required><br><br>
+                    </td></tr>      
+                  <tr>  
+        <td>Email :</td>
+        <td><input type="email" id="email" name="email" required><br><br>
+        </td></tr>
+                    
+               <tr>     
+        <td>Numéro de téléphone :</td>
+       <td> <input type="tel" id="numero" name="numero" required><br><br>
+       </td></tr>
+            <tr>
+                        
+        <td>Adresse :</td>
+       <td> <input type="text" id="adresse" name="adresse" required><br><br> </td>
+            </tr>
+            <tr>
+        <td>Mot de passe :</td>
+        <td> <input type="password" id="motdepasse" name="motdepasse" required><br><br>
+        </td></tr>
+        <tr>     
+        <td>Date de naissance :</td>
+         <td><input type="date" id="date_naissance" name="date_naissance" required><br><br>
+         </td></tr>
+         <tr>       
+        <td>Lieu de naissance :</td>
+        <td> <input type="text" id="lieu_naissance" name="lieu_naissance" required><br><br>
+        </td></tr>         
+        <tr>       
+            <td>Type d'empratissage:</td>
+            <td> <input type="text" id="type d'empratissage" name="type d'emprentissage" required><br><br>
+            </td></tr>          
+    </table>     
+        <button type="submit">S'inscrire</button>
+    </form>
+
+    <!-- Lien vers la page de connexion -->
+    <p>Déjà inscrit ? <a href="connexionEtu.html">Se connecter</a></p>
+</div>
+</div>
+
+</section>
+</body>
+</html>
